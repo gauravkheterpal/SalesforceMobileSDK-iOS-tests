@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestingSuite" parallel="false">
+	<!--   <test name="Selenium Test case 1">		
+		<classes>
+			<class name = "com.salesforce.mobilesdk.ios.hybrid.ContactExplorer" />
+		</classes>		
+	</test>  
+   <test name="Selenium Test case 2">
+		<classes>
+			<class name = "com.salesforce.mobilesdk.ios.hybrid.AccountEditor" />
+		</classes>		
+	</test>	  -->
+	 <test name="Selenium Test case 3">
+		<classes>
+			<class name = "com.salesforce.mobilesdk.ios.Native.FileExplorer" />
+		</classes>		
+	</test>	
+	<!-- <test name="Selenium Test case 4">
+	<classes>
+			<class name = "com.salesforce.mobilesdk.ios.Native.RestAPIExplorer" />	
+		</classes>		
+	</test>		 --> 			
+
+ </suite>
